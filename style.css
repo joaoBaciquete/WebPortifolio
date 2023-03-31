@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 5000px;
+    box-sizing: border-box;
+    font-family: 'Ttillium web', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    width: 100%;
+    background-image: url('6938839_3409297.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    Color: #00ffff;
+    font-size: 36px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 700px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0,4s ease-in-out;
+}
+.search{
+    width: 430px;
+    float: left;
+    margin-left: 370px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #00ffff;
+    margin-top: 13px;
+    color:black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+    
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #00ffff;
+    border: 2px solid #00ffff;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.icon a{
+    text-decoration: none;
+    color: #00ffff;
+}
+.icon ion-icon{
+    
+    color: #00ffff;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 27px;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    float: left;
+    margin-top: 85px;
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.content1{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    float: left;
+    margin-top: 85px;
+
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 30px;
+
+}
+.content.cn{
+    width:160px ;
+    height: 40px;
+    background: #00ffff;
+    border: none;
+}
