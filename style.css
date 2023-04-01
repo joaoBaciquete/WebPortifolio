@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Titillium web', sans-serif;
+
+}
+
+.main{
+    max-width: 1080px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+   
+}
+header{
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+.logo, .Social_icon{
+    width: 50%;
+
+}
+.logo img{
+    width: 100px;
+}
+.menu{
+    width: 50%;
+    
+}
+.menu nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 4px;
+    font-size: 20px;
+    position: relative;
+}
+.menu nav a::after{
+    content: "  ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #dcdcdc,#f8f8ff);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    transition: width 0.5s;
+
+}
+.menu nav a:hover::after{
+    width: 30px;
+}
+.Social_icon ion-icon{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    color:black ;
+
+}
