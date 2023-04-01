@@ -1,162 +1,71 @@
 *{
     margin: 0;
     padding: 0;
-    height: 5000px;
+    width: auto;
+    height: auto;
     box-sizing: border-box;
-    font-family: 'Ttillium web', sans-serif;
+    font-family: 'Titillium web', sans-serif;
 
 }
-html{
-    scroll-behavior: smooth;
-}
+
 .main{
+    max-width: 1080px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+   
+}
+header{
+    background-color: black;
     width: 100%;
-    background-image: url('6938839_3409297.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 109vh;
+    padding: 20px;
 }
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+.logo, .Social_icon{
+    width: 50%;
 
 }
-.icon {
-    width: 200px;
-    float: left;
-    height: 70px;
-
-}
-.logo{
-    Color: #00ffff;
-    font-size: 36px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
+.logo img{
+    width: 100px;
 }
 .menu{
-    width: 700px;
-    float: left;
-    height: 70px;
-
+    width: 50%;
+    
 }
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-ul li{
-    list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-    color: white;
-    font-weight: bold;
-
-}
-ul li a{
+.menu nav a{
+    color: #ffffff;
     text-decoration: none;
-    color: white;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0,4s ease-in-out;
-}
-.search{
-    width: 430px;
-    float: left;
-    margin-left: 370px;
-
-}
-.srch{
-    font-family: 'Times New Roman';
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid #00ffff;
-    margin-top: 13px;
-    color:black;
-    border-right: none;
-    font-size: 16px;
-    float: left;
     padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    
-    
-    
-}
-.btn{
-    width: 100px;
-    height: 40px;
-    background: #00ffff;
-    border: 2px solid #00ffff;
-    margin-top: 13px;
-    color: #fff;
-    font-size: 15px;
-    border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-.btn:focus{
-    outline: none;
-
-}
-.srch:focus{
-    outline: none;
-}
-.icon a{
-    text-decoration: none;
-    color: #00ffff;
-}
-.icon ion-icon{
-    
-    color: #00ffff;
-    font-size: 30px;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin-top: 27px;
-
-}
-.content{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: white;
+    padding-left: 4px;
+    font-size: 20px;
     position: relative;
-    float: left;
-    margin-top: 85px;
 }
-.content.par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial;
-    letter-spacing: 1px;
-    line-height: 30px;
-}
-.content1{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: white;
-    position: relative;
-    float: left;
-    margin-top: 85px;
+.menu nav a::after{
+    content: "  ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #dcdcdc,#f8f8ff);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    transition: width 0.5s;
 
 }
-.content.par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial;
-    letter-spacing: 1px;
-    line-height: 30px;
-
+.menu nav a:hover::after{
+    width: 30px;
 }
-.content.cn{
-    width:160px ;
+.Social_icon ion-icon{
+    width: 40px;
     height: 40px;
-    background: #00ffff;
-    border: none;
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    color:black ;
+
 }
