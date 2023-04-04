@@ -62,10 +62,16 @@ header{
     color: #ffffff;
 
 }
-::-webkit-scrollbar{
-    width: 10px;
-}
-::-webkit-scrollbar-thumb{
-    color:black ;
-
-}
+.footer {
+    flex-shrink: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    
+    color: #fff;
+    text-decoration: none;
+  }
